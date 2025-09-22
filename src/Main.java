@@ -32,7 +32,7 @@ public class Main {
             writer.newLine();
 
 
-            System.out.println("✅ Details saved successfully to file: \n" + filename);
+            System.out.println(" Details saved successfully to file: \n" + filename);
 
         } catch (IOException e) {
             System.out.println(" Error while writing: " + e.getMessage());
